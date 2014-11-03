@@ -1,0 +1,7 @@
+{
+  "hubsoft": {
+    "soap": {
+      "url": "https://ws.hubsoft.com/services/SiteService?wsdl"
+    }
+  }
+}
