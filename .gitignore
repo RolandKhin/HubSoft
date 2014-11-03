@@ -1,0 +1,18 @@
+# generic files to ignore
+*~
+.*.swp
+.DS_Store
+*.zip
+node_modules/
+target/
+build/
+log/
+*.log
+
+# IDEA project files
+*.iws
+workspace.xml
+tasks.xml
+
+# Gradle files
+.gradle

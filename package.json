@@ -1,0 +1,17 @@
+{
+  "name": "hubsoft",
+  "version": "1.0.0",
+  "description": "B2B Portal to Hubsoft",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "debug": "^2.1.0",
+    "express": "^4.10.1",
+    "morgan": "^1.4.1",
+    "mustache-express": "^1.2.0",
+    "serve-favicon": "^2.1.6"
+  }
+}
