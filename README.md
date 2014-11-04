@@ -12,7 +12,7 @@
 2. Checkout the latest source code from Bitbucket.
 3. Install all the node.js dependencies: `node install`
 4. Install nodemon for simple monitoring and auto-restart in development: `npm install -g nodemon`
-5. Start the web application: `./bin/www`. You can access the app at [http://localhost:3000].
+5. Start the web application: `./bin/www`. You can access the app at http://localhost:3000.
 
 ### Contribution guidelines ###
 
