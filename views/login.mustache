@@ -1,4 +1,92 @@
-<h1>{{title}}</h1>
-{{^name}}
-<b>no name is set changed</b>
-{{/name}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palladium Shoes - HubSoft B2B Login Page</title>
+  </head>
+  <body>
+    <div id="main">
+      <noscript>
+        <h1 style="color:red; font-size:200%;">Java Script is required to use this form. Please enable Java script on your browser.</h1>
+      </noscript>
+      <div id="pageDiv1">
+        <div id="login-form" style=" width:41%; height:auto; margin-top:10%; margin-left:5%; padding:0px; background-color:#fff;  position:absolute; z-index:1000; ">
+          <form action="/login" method="post" name="loginForm" id="loginForm">
+            <div style="position:absolute; z-index:1200; width:100%; height:auto; margin:0px; padding:0% 0% 12% 0%; background-color:#fff;  ">
+              <div class="login_header">
+                <img id="p-header" src="images/p-header.jpg"  style=" max-width:100%; height:auto;  border:0px solid #ccc; "  alt ="Palladium Customer - Login"   />
+              </div>
+              <div class="palladium_form_label" style="margin-top:5px; margin-left:3%; text-align:left; ">
+                <span style="font-family: Consolas, monaco, monospace; font-size:100%; font-weight:bold; color:#222222; ">
+                  USER NAME
+                </span>
+              </div>
+              <div class="palladium_form_label" style="margin-left:0px; ">
+                <input type="text" name="username" id="username" maxlength="100" size="20" value="" class="palladium_form_style" style="width:90%; "  />
+              </div>
+              <div class="palladium_form_label" style="margin-top:5px; margin-left:3%; text-align:left;">
+                <span style="font-family: Consolas, monaco, monospace; font-size:100%; font-weight:bold; color:#222222; ">
+                  PASSWORD
+                </span>
+              </div>
+              <div class="palladium_form_label" style="margin-left:0px; ">
+                <input type="password" name="password" id="password" maxlength="100" size="20" value="" class="palladium_form_style" style="width:90%; " />
+              </div>
+              <div class="clear"></div>
+              <div class="div_inline" style="width:28%; margin-left:3%; margin-top:10px; padding:0px; border:0px solid #9f9;">
+                <div class="div_inline" style="display:none; width:15%; margin-left:2px;">
+                  <input type="checkbox" id="rememberMe" style="width:100%;"  />
+                </div>
+                <div class="div_inline" style="display:none; width:82%; margin-top:2%;">
+                  <img src="images/remember-me.png"  style="float:left; margin-left:2px; max-width:85%; height:auto;  border:0px solid #c3c; "  alt ="Palladium Shoes - Remember me"   />
+                </div>
+                <div class="clear"></div>
+                <div class="div_inline" style="margin-top:3%; margin-left:1px;">
+                  <div id="bg_submit1" >
+                    <a href="#" title="Palladium Shoes - Login" >
+                      <input type="submit" name="submit" id="sbutton1" value="" class="submit_button"  onmouseover="onImage(1)"  onmouseout="offImage(1)"  style="margin-left:2px; max-width:98%; height:auto;"  />
+                    </a>
+                    <img id="submit1" src="images/submit1.jpg"  style="float:left; max-width:100%; height:auto;  border:0px solid #c3c; "  alt ="Palladium Shoes - Login"   />
+                  </div>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </form>
+          <div id="links_div"  style="float:right; width:70%; position:absolute; z-index:1300; margin-top:30%; right:1%;  padding:0px; background-color:transparent;  ">
+            <div id="links" class="div_inline" style="float:right; width:100%;  margin-right:3%; padding:0px;   ">
+              <div class="div_inline" style="width:100%; margin:1% 0% 0% 0%; padding:0px; text-align:right; ">
+                <a href="javascript:CallPage(2)" title="Palladium Shoes - Existing Customer" style=" font-family: Trebuchet MS, sans-serif; font-size:75%; font-weight:bold; " >
+                  Existing Customer: Create User/Password
+                </a>
+              </div>
+              <div class="clear"></div>
+              <div class="div_inline" style="width:100%; padding:0px; text-align:right; margin-top:0%; ">
+                <a href="javascript:CallPage(3)" title="Palladium Shoes - New Account Inquiry" style=" font-family: Trebuchet MS, sans-serif; font-size:75%; font-weight:bold; " >
+                  New Account Inquiry
+                </a>
+              </div>
+              <div class="clear"></div>
+              <div class="div_inline" style="width:100%; padding:0px; text-align:right;  margin-top:0%; ">
+                <a href="javascript:CallPage(4)" title="Palladium Shoes - Forgot Password" style=" font-family: Trebuchet MS, sans-serif; font-size:75%; font-weight:bold; "  >
+                  Forgot Password
+                </a>
+              </div>
+              <div class="clear"></div>
+            </div>
+          </div>
+          <div id="need_help_div" class="div_inline" style="position:absolute; z-index:1400; width:60%; margin-top:43%; margin-bottom:2%; margin-left:3%;  ">
+            <div class="div_inline" >
+              <span style="font-size:75%; font-weight:bold; color:#A0A0A0; ">Need Help Login? 1-800-938-8000</span>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div><!-- end login-form div -->
+        <img id="loginGirl" src="images/palladium_login_girl.jpg"  style=" max-width:100%; height:auto;  "  alt ="Palladium Shoes - Login"   />
+      </div>
+    </div><!-- end main div -->
+  </body>
+</html>

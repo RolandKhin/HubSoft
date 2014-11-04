@@ -2,6 +2,7 @@
   "hubsoft": {
     "soap": {
       "url": "https://ws.hubsoft.com/services/SiteService?wsdl"
-    }
+    },
+    "loginUrl": "https://k-swiss.hubsoft.com/login.hub?c=1BIoalshNv5EXa96rJH9a0jb6WsbJYh7&m=login&loginToken="
   }
 }
