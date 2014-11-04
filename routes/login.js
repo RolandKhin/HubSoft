@@ -10,14 +10,12 @@ router.get('/', function(req, res) {
 })
 
 router.post('/login', function(req, res) {
-  console.log(req.body)
   if (req.body.username && req.body.password) {
     var args = {userName: req.body.username, password: req.body.password, accessKey: '83iJiJNkte'}
     soap.createClient(config.hubsoft.soap.url, function(err, client) {
       client.authUser(args, function(err, result) {
         if (err) console.log(err.root.Envelope.Body.Fault)
         else {
-          console.log(result)
           res.writeHead(302, {'Location': config.hubsoft.loginUrl + result.out})
           res.end()
         }
