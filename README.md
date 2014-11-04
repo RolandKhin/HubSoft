@@ -4,16 +4,14 @@ This README would normally document whatever steps are necessary to get your app
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
+* This is our B2B customer facing portal which integrates with Hubsoft, our B2B web application.
+* 1.0.0
 * [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
 ### How do I get set up? ###
 
-* Summary of set up
+* Setup
 * Configuration
-* Dependencies
-* Database configuration
 * How to run tests
 * Deployment instructions
 
