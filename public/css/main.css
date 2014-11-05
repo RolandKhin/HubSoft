@@ -123,19 +123,7 @@ html,body{
 
 
 
-
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@   BEGIN PART 2: PAGE Elements  @@@@@@@@@@@@@@@@@@@@@@@@@@@  */
-
-
-
-
-
-
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@   END PART 2: PART 2: PAGE Elements  @@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
-
-
-
-
 
 
 
@@ -181,13 +169,93 @@ html,body{
      clear:both;
  }
  
+  
+ 
+ 
+ 
+ #ulistItem li{
+    width:100%;
+    height:auto;
+    margin:1% 0% 1% 0%;
+    padding:0%;
+    list-style-type: square;
+    position:relative;
+ }
+    
+
+ #Remember_me_div{
+     width:28%; 
+     margin-left:3%; 
+     margin-top:10px; 
+     padding:0px; 
+     border:0px solid #9f9;
+ }
+ 
+ 
+ #links_div{
+     float:right; 
+     width:70%;     
+     margin-top:30%; 
+     right:1%;  
+     padding:0px; 
+     background-color:transparent;  
+     position:absolute; 
+     z-index:1300; 
+ }
+ 
+ #links{
+    float:right; 
+    width:100%;  
+    margin-right:3%; 
+    padding:0px;    
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* >>>>>>>>>>>>>>>> End - LOGIN FORM STYLES >>>>>>>>>>>>>>>>>  */
+  
+  
+  
+ #login-form{
+      width:41%; 
+      height:auto; 
+      margin-top:10%; 
+      margin-left:5%; 
+      padding:0px; 
+      background-color:#fff;  
+      position:absolute; 
+      z-index:1000; 
+ }
+ 
+ 
+ #login-form-div{     
+     width:100%; 
+     height:auto; 
+     margin:0px; 
+     padding:0% 0% 12% 0%; 
+     background-color:#fff;
+     position:absolute; 
+     z-index:1200; 
+ }
+ 
  .palladium_form_label{
     float:left;
     width:70%;
     height:auto;
-    margin:-3px 0px 0px 0px;
+    margin:5px 0px 0px 0px;
+    margin-left:3%; 
+    text-align:left;
     padding:0px;
-    clear:both; 
+    clear:both;    
+    
  } 
  
  
@@ -207,6 +275,8 @@ html,body{
      border-bottom:1px solid #C0C0C0;
      position:relative; 
  }
+ 
+ 
  
  
  #bg_submit1,#bg_submit2,#bg_submit3,#bg_submit4{
@@ -242,23 +312,45 @@ html,body{
     } 
  
  
- #ulistItem li{
-    width:100%;
-    height:auto;
-    margin:1% 0% 1% 0%;
-    padding:0%;
-    list-style-type: square;
-    position:relative;
+ 
+ 
+ 
+ 
+ 
+/* >>>>>>>>>>>>>>>> End - LOGIN FORM STYLES >>>>>>>>>>>>>>>>>  */
+ 
+ 
+ 
+ 
+ 
+/* >>>>>>>>>>>>>>>> IMAGE STYLE >>>>>>>>>>>>>>>>>  */
+
+ .responsive_image{
+      max-width:100%; 
+      height:auto;  
+      border:0px solid #ccc; 
+ }   
+    
+
+/* >>>>>>>>>>>>>>>> End - IMAGE STYLE >>>>>>>>>>>>>>>>>  */
+ 
+ 
+ 
+ 
+/* >>>>>>>>>>>>>>>> FONT STYLE >>>>>>>>>>>>>>>>>  */
+ 
+ .Label_Fonts{
+     font-family: Consolas, monaco, monospace; 
+     font-size:100%; font-weight:bold; 
+     color:#222222; 
  }
-    
-    
- 
-    
-    
-    
  
  
- /*  ----- Responsive containers --------- */ 
+ 
+/* >>>>>>>>>>>>>>>> End - FONT STYLE >>>>>>>>>>>>>>>>>  */
+ 
+ 
+/*  ----- Responsive containers --------- */ 
  @media only screen and (min-width : 1224px) { #main { width: 1000px; } } /* For Desktop & Laptop ----- */ 
  @media only screen and (max-width : 1024px) { #main { width: 1000px; } } /* For iPad ----- */
  @media only screen and (max-width : 960px) { #main { width: 950px; } } /* For iPhone4 ----- */
@@ -266,3 +358,6 @@ html,body{
  @media only screen and (max-width : 321px) { #main { width: 300px; } } /* For Smart phones (portrait) ----- */
  
  
+ 
+ 
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@   END PART 2: PART 2: PAGE Elements  @@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
