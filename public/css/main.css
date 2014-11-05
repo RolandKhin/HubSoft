@@ -212,7 +212,14 @@ html,body{
  
  
  
- 
+ #need_help_div{
+     position:absolute; 
+     z-index:1400; 
+     width:60%; 
+     margin-top:43%; 
+     margin-bottom:2%; 
+     margin-left:3%;  
+ }
  
  
  
